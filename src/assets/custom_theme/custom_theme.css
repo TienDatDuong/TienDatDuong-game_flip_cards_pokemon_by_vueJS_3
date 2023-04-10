@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --dark: #212121;
+  --light: #f3f3f3;
+  --yellow: #f6cd03;
+  --default: #161b56;
+  --green: #8eb67b;
+  --font: 'Odibee Sans', cursive;
+}
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 16px;
+  background-image: url("@/assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--font);
+}
